@@ -1,28 +1,11 @@
 <?php
 include "convert_note.php";
 $string= ' 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 ';
+echo $string.'<br>';
 $node = new convert_node($string);
 //echo '<pre>' . htmlentities( $node->go_convert_tremolo_vn_tre24() ) . '</pŕe>';
 echo '<pre>' . ( $node->go_convert_tremolo_vn_tre24() ) . '</pŕe>';
 
-
-echo '<br>';
-echo '<br>';
-
-$string="355-758-0384";
-$search  = array(0,1,2,3,4,5,6,7,8,9);
-$replace = array('zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine');
-echo str_replace($search, $replace, $string);
-
-
-echo '<br>';
-echo '<br>';
-
-
-$string="9 9 9 9";
-$search  = array(' 0 ',' 1 ',' 2 ',' 3 ',' 4 ',' 5 ',' 6 ',' 7 ',' 8 ',' 9 ');
-$replace = array('zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine');
-echo str_replace($search, $replace, $string);
 
 echo '<br>';
 echo '<br>';
