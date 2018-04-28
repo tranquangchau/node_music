@@ -74,13 +74,13 @@ class convert_node{
 		$string_before = preg_replace('/16(?=\s)/', '<span class="c16">Si</span>', $string_before);
 		$string_before = preg_replace('/(?<=\s)16/', '<span class="c16">Si</span>', $string_before);
 		
-		$string_before = preg_replace('/(?<=\s)17(?=\s)/', '<span class="c17">Mi</span>', $string_before);
-		$string_before = preg_replace('/17(?=\s)/', '<span class="c17">Mi</span>', $string_before);
-		$string_before = preg_replace('/(?<=\s)17/', '<span class="c17">Mi</span>', $string_before);
+		$string_before = preg_replace('/(?<=\s)17(?=\s)/', '<span class="c17">Mí</span>', $string_before);
+		$string_before = preg_replace('/17(?=\s)/', '<span class="c17">Mí</span>', $string_before);
+		$string_before = preg_replace('/(?<=\s)17/', '<span class="c17">Mí</span>', $string_before);
 		
-		$string_before = preg_replace('/(?<=\s)18(?=\s)/', '<span class="c18">Fa</span>', $string_before);
-		$string_before = preg_replace('/18(?=\s)/', '<span class="c18">Fa</span>', $string_before);
-		$string_before = preg_replace('/(?<=\s)18/', '<span class="c18">Fa</span>', $string_before);
+		$string_before = preg_replace('/(?<=\s)18(?=\s)/', '<span class="c18">Fá</span>', $string_before);
+		$string_before = preg_replace('/18(?=\s)/', '<span class="c18">Fá</span>', $string_before);
+		$string_before = preg_replace('/(?<=\s)18/', '<span class="c18">Fá</span>', $string_before);
 		
 		$string_before = preg_replace('/(?<=\s)19(?=\s)/', '<span class="c19">Sol</span>' , $string_before);
 		$string_before = preg_replace('/19(?=\s)/', '<span class="c19">Sol</span>', $string_before);
